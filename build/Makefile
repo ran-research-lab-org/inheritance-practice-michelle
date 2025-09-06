@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/inheritance-practice-michelle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/inheritance-practice-michelle
+CMAKE_BINARY_DIR = /workspaces/inheritance-practice-michelle/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/inheritance-practice-michelle/CMakeFiles /workspaces/inheritance-practice-michelle//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/inheritance-practice-michelle/build/CMakeFiles /workspaces/inheritance-practice-michelle/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/inheritance-practice-michelle/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/inheritance-practice-michelle/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named inheritance-practice-michelle
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+inheritance-practice-michelle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inheritance-practice-michelle
+.PHONY : inheritance-practice-michelle
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+inheritance-practice-michelle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/build
+.PHONY : inheritance-practice-michelle/fast
 
 Employee.o: Employee.cpp.o
 .PHONY : Employee.o
 
 # target to build an object file
 Employee.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Employee.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/Employee.cpp.o
 .PHONY : Employee.cpp.o
 
 Employee.i: Employee.cpp.i
@@ -142,7 +142,7 @@ Employee.i: Employee.cpp.i
 
 # target to preprocess a source file
 Employee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Employee.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/Employee.cpp.i
 .PHONY : Employee.cpp.i
 
 Employee.s: Employee.cpp.s
@@ -150,7 +150,7 @@ Employee.s: Employee.cpp.s
 
 # target to generate assembly for a file
 Employee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Employee.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/Employee.cpp.s
 .PHONY : Employee.cpp.s
 
 HourlyEmployee.o: HourlyEmployee.cpp.o
@@ -158,7 +158,7 @@ HourlyEmployee.o: HourlyEmployee.cpp.o
 
 # target to build an object file
 HourlyEmployee.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HourlyEmployee.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/HourlyEmployee.cpp.o
 .PHONY : HourlyEmployee.cpp.o
 
 HourlyEmployee.i: HourlyEmployee.cpp.i
@@ -166,7 +166,7 @@ HourlyEmployee.i: HourlyEmployee.cpp.i
 
 # target to preprocess a source file
 HourlyEmployee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HourlyEmployee.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/HourlyEmployee.cpp.i
 .PHONY : HourlyEmployee.cpp.i
 
 HourlyEmployee.s: HourlyEmployee.cpp.s
@@ -174,7 +174,7 @@ HourlyEmployee.s: HourlyEmployee.cpp.s
 
 # target to generate assembly for a file
 HourlyEmployee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HourlyEmployee.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/HourlyEmployee.cpp.s
 .PHONY : HourlyEmployee.cpp.s
 
 SalariedEmployee.o: SalariedEmployee.cpp.o
@@ -182,7 +182,7 @@ SalariedEmployee.o: SalariedEmployee.cpp.o
 
 # target to build an object file
 SalariedEmployee.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SalariedEmployee.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/SalariedEmployee.cpp.o
 .PHONY : SalariedEmployee.cpp.o
 
 SalariedEmployee.i: SalariedEmployee.cpp.i
@@ -190,7 +190,7 @@ SalariedEmployee.i: SalariedEmployee.cpp.i
 
 # target to preprocess a source file
 SalariedEmployee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SalariedEmployee.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/SalariedEmployee.cpp.i
 .PHONY : SalariedEmployee.cpp.i
 
 SalariedEmployee.s: SalariedEmployee.cpp.s
@@ -198,7 +198,7 @@ SalariedEmployee.s: SalariedEmployee.cpp.s
 
 # target to generate assembly for a file
 SalariedEmployee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SalariedEmployee.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/SalariedEmployee.cpp.s
 .PHONY : SalariedEmployee.cpp.s
 
 main.o: main.cpp.o
@@ -206,7 +206,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -214,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inheritance-practice-michelle.dir/build.make CMakeFiles/inheritance-practice-michelle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... inheritance-practice-michelle"
 	@echo "... Employee.o"
 	@echo "... Employee.i"
 	@echo "... Employee.s"

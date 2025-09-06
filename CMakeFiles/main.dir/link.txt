@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Employee.cpp.o CMakeFiles/main.dir/HourlyEmployee.cpp.o CMakeFiles/main.dir/SalariedEmployee.cpp.o -o main 

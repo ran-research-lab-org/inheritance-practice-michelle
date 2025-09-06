@@ -1,0 +1,3 @@
+/workspaces/inheritance-practice-michelle/build/CMakeFiles/inheritance-practice-michelle.dir
+/workspaces/inheritance-practice-michelle/build/CMakeFiles/edit_cache.dir
+/workspaces/inheritance-practice-michelle/build/CMakeFiles/rebuild_cache.dir
