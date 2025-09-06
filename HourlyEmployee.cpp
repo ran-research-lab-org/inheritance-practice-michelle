@@ -1,6 +1,6 @@
 #include "HourlyEmployee.h"
 
-HourlyEmployee::HourlyEmployee(const std::string& name, int id, double payPerHour, double workedHours) : Employee(name, id, "Hourly")
+HourlyEmployee::HourlyEmployee(const std::string& name, int id, double payPerHour, double workedHours) : Employee(name, "Hourly", id)
 {
     this->payPerHour = payPerHour;
     this->workedHours = workedHours;

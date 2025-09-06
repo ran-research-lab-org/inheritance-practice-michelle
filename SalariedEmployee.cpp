@@ -1,6 +1,6 @@
 #include "SalariedEmployee.h"
 
-SalariedEmployee::SalariedEmployee(const std::string& name, int id, double yearlyPayment): Employee(name, id, "Salaried") 
+SalariedEmployee::SalariedEmployee(const std::string& name, int id, double yearlyPayment): Employee(name, "Salaried", id) 
 {
     this->yearlyPayment = yearlyPayment;
 }
