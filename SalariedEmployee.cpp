@@ -7,7 +7,7 @@ SalariedEmployee::SalariedEmployee(const std::string& name, int id, double yearl
 
 /*TODO: calculate Payment */
 
-double SalariedEmployee::calculatePay () {
+double SalariedEmployee::calculatePay () const {
     double yearly = getYearlyPayment();
     double biweekly = yearly / 26;
     return biweekly;

@@ -11,6 +11,8 @@ public:
     HourlyEmployee(const std::string& name, int id, double payPerHour, double workedHours);
 
     double calculatePay() const override;
+    double getPayPerHour() const;
+    double getWorkedHours() const;
 };
 
 #endif

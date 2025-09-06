@@ -7,7 +7,7 @@ HourlyEmployee::HourlyEmployee(const std::string& name, int id, double payPerHou
 }
 /*TODO: calculate Payment */
 
-double HourlyEmployee::calculatePay () {
+double HourlyEmployee::calculatePay () const {
     double hourly = getPayPerHour();
     double timeWorked = getWorkedHours();
 
@@ -15,10 +15,10 @@ double HourlyEmployee::calculatePay () {
     return pay;
 }
 
-double HourlyEmployee::getPayPerHour () {
+double HourlyEmployee::getPayPerHour () const {
     return payPerHour;
 }
 
-double HourlyEmployee::getWorkedHours () {
+double HourlyEmployee::getWorkedHours () const {
     return workedHours;
 }

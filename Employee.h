@@ -14,10 +14,10 @@ protected:
 // Methods
 public:
 	// constructor
-    Employee (std::string name, std::string type, int id, double payPerHour, double workedHours, double yearlyPayment);
+    Employee (const std::string& name, const std::string& type, int id);
 
     // default constructor
-    Employee ();
+    // Employee ();
 
     // destructor
     virtual ~Employee() {}
