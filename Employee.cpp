@@ -21,3 +21,7 @@ std::string Employee:: getName() const {
 std::string Employee:: getType() const {
   return type;
 }
+
+int Employee:: getID() const {
+  return id;
+}

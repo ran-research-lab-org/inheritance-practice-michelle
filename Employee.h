@@ -26,8 +26,9 @@ public:
     virtual double calculatePay() const = 0;
 
     // getters
-    std::string getName();
-    std::string getType();
+    std::string getName() const;
+    std::string getType() const;
+    int getID() const;
 };
 
 #endif
