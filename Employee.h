@@ -13,14 +13,21 @@ protected:
 
 // Methods
 public:
-	// TODO: Constructor
+	// constructor
+    Employee (std::string name; std::string type; int id, double payPerHour, double workedHours, double yearlyPayment);
 
+    // default constructor
+    Employee ();
+
+    // destructor
     virtual ~Employee() {}
 
     // Virtual function to calculate payment
     virtual double calculatePay() const = 0;
 
-    // TODO: Getters
+    // getters
+    std::string getName();
+    std::string getType();
 };
 
 #endif
