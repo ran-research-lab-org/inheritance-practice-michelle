@@ -14,7 +14,7 @@ protected:
 // Methods
 public:
 	// constructor
-    Employee (std::string name; std::string type; int id, double payPerHour, double workedHours, double yearlyPayment);
+    Employee (std::string name, std::string type, int id, double payPerHour, double workedHours, double yearlyPayment);
 
     // default constructor
     Employee ();
