@@ -1,3 +1,7 @@
+// Michelle A. Santiago
+// Práctica 2
+// 801 - 23 - 5483
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -34,7 +38,8 @@ void readFile(const string& filename, vector<HourlyEmployee>& hourlyEmployees, v
         }
     }
 }
-
+// functions to display the information of the employees neatly
+// i used regular for loops. i dont like ranged ones
 void displayInfoHourly (vector<HourlyEmployee>& hourlyEmployees) {
 
     std:: cout << "Hourly Employees: " << endl;

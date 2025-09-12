@@ -1,5 +1,10 @@
+// Michelle A. Santiago
+// Práctica 2
+// 801 - 23 - 5483
+
 #include "HourlyEmployee.h"
 
+// constructor
 HourlyEmployee::HourlyEmployee(const std::string& name, int id, double payPerHour, double workedHours) : Employee(name, "Hourly", id)
 {
     this->payPerHour = payPerHour;
@@ -15,6 +20,7 @@ double HourlyEmployee::calculatePay () const {
     return pay;
 }
 
+// getters
 double HourlyEmployee::getPayPerHour () const {
     return payPerHour;
 }

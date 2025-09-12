@@ -1,9 +1,15 @@
+// Michelle A. Santiago
+// Práctica 2
+// 801 - 23 - 5483
+
 #include "Employee.h"
 
-Employee::Employee(const std::string& name, const std::string& type, int id)
+// constructor
+
+Employee::Employee(const std::string& n, const std::string& type, int id)
 {
   // le estoy diciendo que asigne el parámetro recibido al atributo del objeto
-  this->name = name;
+  name = n;
   this->id = id;
   this->type = type;
 }

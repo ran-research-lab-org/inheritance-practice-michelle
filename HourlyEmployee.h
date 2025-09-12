@@ -1,8 +1,13 @@
+// Michelle A. Santiago
+// Práctica 2
+// 801 - 23 - 5483
+
 #ifndef HOURLYEMPLOYEE_H
 #define HOURLYEMPLOYEE_H
 
 #include "Employee.h"
 
+// constructor and added methods
 class HourlyEmployee : public Employee {
 public:
     double payPerHour;

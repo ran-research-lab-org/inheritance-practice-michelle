@@ -1,3 +1,7 @@
+// Michelle A. Santiago
+// Práctica 2
+// 801 - 23 - 5483
+
 // Parent Class Employee
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
@@ -18,6 +22,7 @@ public:
 
     // default constructor
     // Employee ();
+    // had to comment it out because it was giving me some trouble with the compiler
 
     // destructor
     virtual ~Employee() {}
