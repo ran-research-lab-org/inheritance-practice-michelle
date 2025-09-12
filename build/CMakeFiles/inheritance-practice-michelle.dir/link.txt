@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/inheritance-practice-michelle.dir/main.cpp.o" "CMakeFiles/inheritance-practice-michelle.dir/Employee.cpp.o" "CMakeFiles/inheritance-practice-michelle.dir/HourlyEmployee.cpp.o" "CMakeFiles/inheritance-practice-michelle.dir/SalariedEmployee.cpp.o" -o /workspaces/inheritance-practice-michelle/inheritance-practice-michelle 
